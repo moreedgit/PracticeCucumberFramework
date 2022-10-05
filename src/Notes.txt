@@ -1,0 +1,23 @@
+Scenario = is a test case
+Given = precondition
+When = actions
+And = supporting tag
+Then = results
+
+Ex. US 12345 - Employee search
+Scenario - Search employee by ID
+Given user is navigated to HRMS Application
+When user enters valid admin credentials
+And user clicks on the login button
+And user navigates to employee list page
+And clicks on the search button
+Then user is able to see employee information
+
+Scenario - Search employee by name
+Given user is navigated to HRMS Application
+When user enters valid admin credentials
+And user clicks on the login button
+And user navigates to employee list page
+When user enters valid name
+And clicks on the search button
+Then user is able to see employee information
